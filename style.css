@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(239, 239, 239);
-  margin: 0;
   background-image: url('http://loggado.com/wp-content/uploads/2017/07/Harry-Potter-Hogwarts-800x445.jpg');
   background-size: cover;
   font-family: serif;
@@ -42,9 +47,17 @@ body {
 footer {
   background-color: rgb(60, 64, 74);
   color: rgb(239, 239, 239);
-  text-align: center;
-  padding: 7px;
-  margin-top: 20px;
+  /* text-align: center; */
+  /* padding: 7px; */
+  /* margin-top: 20px; */
+
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 
 header h1 {
